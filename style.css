@@ -1,0 +1,336 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #ededed;
+    width: auto;
+    height: auto;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-color:#0f9499
+}
+.top_box{
+    background-color: #0a1633;
+    width: 220px;
+    height: 120px;
+    position: absolute;
+    left: 200px;
+    top: 90px; 
+}
+.logo_name{
+    font-family: Arimo;
+    font-size: 35px;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 40px;
+}
+nav{
+    /* background-color: yellow; */
+  
+}
+nav ul{
+    /* background-color: blue; */
+    text-align: right;
+    margin-right: 100px;
+    /* padding-left: 100px; */
+    
+   
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+nav ul li a{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+button{
+    background-color: black;
+    padding: 10px 24px;
+    border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  border: beige;
+  }
+  .section2{
+      width: 900px;
+      height: 355px;
+      border: #0f9499  solid;
+      background-color: white;
+     margin-top: 50px;
+     margin-left: 200px;
+  }
+  .hairstyle{
+      height: 100%;
+      
+
+      /* width: 100%; */
+  }
+  .experts{
+      position: absolute;
+      bottom: 150px;
+      right: 280px;
+      /* background-color: red; */
+      display: inline-block;
+      margin-left:450px;
+      width: 500px;
+      height: 150px;
+  }
+  .great{
+     font-family: montserrat;
+      font-size: 40px;
+     color: #1b2130;
+  }
+  .gallery{
+    margin-top: 60px;
+    margin-left: 0px;
+    width: 900px;
+    height: 200px;
+    /* border: 2px solid#1b2130; */
+    /* background-color: red; */
+  }
+  .frame{
+      display: flex;
+      justify-content: space-evenly;
+      /* margin-left: 5px; */
+      padding: 12px;
+      /* border: solid 5px red; */
+  }
+  .pishur{
+    border: 5px solid #0f9499;
+    margin-right: 20px;
+    border-radius: 3px;
+    box-shadow:0px 5px 0px 0px grey
+  }
+  .hairone{
+      /* display: flex;
+      justify-content: space-evenly; */
+      position: absolute;
+      left: 412px;
+      bottom: none;
+      /* background-color: red; */
+  }
+  .hairtwo{
+    position: absolute;
+    left: 170px;
+    bottom: none;
+    /* background-color:blue */
+  }
+  .hairthree{
+    position: absolute;
+    left: 655px;
+    bottom: none;
+    /* background-color:green */
+  }
+  .hairfour{
+    position: absolute;
+    left: 898px;
+    bottom: none;
+    /* background-color:orange  */
+  }
+  .subtitle{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      padding-top: 10px;
+      font-weight: normal;
+      /* width: 40px; */
+  }
+  /* I am Yet to decide on the font to use */
+  .writeup{
+      width: 215px;
+      height: 120px;
+      /* background-color: red; */
+      position: absolute;
+      top: 920px;
+      left: 170px;
+      bottom: none;
+      font-family:Arial, Helvetica, sans-serif;
+      text-align: left;
+      font-size: 12px;
+      }
+      .writeup2{
+        width: 215px;
+        height: 120px;
+        position: absolute;
+      top: 920px;
+      left: 410px;
+      bottom: none;
+      font-family:montserrat;
+      text-align: left;
+      font-size: 12px;
+      }
+      .writeup3{
+        width: 215px;
+        height: 120px;
+        position: absolute;
+      top: 920px;
+      left: 653px;
+      bottom: none;
+      font-family:poppins;
+      text-align: left;
+      font-size: 12px;   
+      }
+      .writeup4{
+        width: 215px;
+        height: 120px;
+        position: absolute;
+      top: 920px;
+      left: 895px;
+      bottom: none;
+      font-family:barlow;
+      text-align: left;
+      font-size: 12px;
+      }
+      .box{
+          background-color: white;
+          width: 450px;
+          height: 600px;
+          border: solid 3px #0f9499;
+          margin-left: 170px;
+          margin-top: 450px;
+          border-radius: 4px;
+      }
+      .tagged{
+        background-color: #1b2130;
+        width: 170px;
+        height: 60px;
+        margin-left: 20px;
+        position: absolute;
+        left: 170px;
+        bottom: -450px;
+
+      }
+    .box1{
+        background-color: #166264;
+        width: 450px;
+        height: 300px;
+        border: solid 5px #0f9499;
+        margin-left: 650px;
+        margin-top: 0px;
+        position: absolute;
+        top: 1065px;
+        border-radius: 4px;    
+    }
+    .box2{
+        background-color: #166264;
+        width: 450px;
+        height: 200px;
+        border: solid 5px #0f9499;
+        margin-left: 650px;
+        position: absolute;
+        top: 1450px;
+    }
+    .skinhead{
+        width: 200px;
+        height: 80%;
+        position: relative;
+        right: 0px;
+        /* background-color: red; */
+        align-content: center;
+    }
+    img{
+        height: 130%;
+        /* width: 100%; */
+    }
+    #box2{
+        width: 250px;
+        height: 400;
+        /* background-color: red; */
+        position: relative;
+        left: 170px;
+        top: -130px;
+        font-size: 18px;
+        font-family: sans-serif;
+        line-height: 0.9cm;
+        color: white;
+    }
+    .tag{
+        background-color: #1b2130;
+        width: 170px;
+        height: 60px;
+        position: absolute;
+        right: 500px;
+        bottom: -450px;
+    }
+.tag_content{
+    font-size: 25px;
+    font-family: comfortaa;
+    text-align: center;
+    color: bisque;
+    padding-top: 10px;
+}
+footer{
+    width: auto;
+    height: 120px;
+    background-color: #166264;
+    margin-top: 50px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 13px;
+    font-family: barlow;
+    color: white;
+    text-transform: capitalize;
+}
+.handles{
+    width: 160px;
+    height: 70px;
+    background-color: #202b44;
+    position: absolute;
+    right: 240px;
+    top: 1750px;
+    /* opacity: 0.1; */
+}
+.box1content{
+    /* background-color: red; */
+    line-height: 0.7cm;
+    padding-top: 70px;
+    font-size: 15px;
+    color: white;
+    text-align: centers;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: barlow;
+}
+#author{
+    font-size: 20px;
+    font-family: barlow;
+    margin-left: 350px;
+    color: wheat;
+    margin-top: 30px;
+}
+#boxcontent{
+    /* background-color: rebeccapurple; */
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: barlow;
+    font-size: 13px;
+    text-align: justify;
+}
+.woman{
+    margin-left:20px;
+    margin-top: 80px;
+}
+#hair{
+    position: relative;
+    left: 170px;
+    top: -100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+}
+#facebook{
+   margin-top: 25px;
+   margin-left: 10px;
+   align-content: center;
+}
