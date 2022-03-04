@@ -351,10 +351,13 @@ footer{
     left: 570px;
     top: 1853px;
 } */
-@media screen and (max-width: 800px){
-.box, .box1, .box1content,.box2, #box2, .copyright,.experts, .frame, .gallery,
-.great, .hairfour, .hairone, .hairstyle, .hairthree, .hairtwo, .handles,
-.writeup4,.writeup3,.writeup2,.writeup,.woman,.top_box,.tagged,.tag_content,
-.tag,.subtitle,.skinhead,.section2,.pishur,.logo_name,.header, section, 
-.image, button, nav, ul,li, footer, body, main, .social, #author, .box1content,
+@media screen and (max-width: 100%){
+.box, .box1, .box1content,.box2, #box2, .copyright,
+.experts, .frame, .gallery,.great,.hairfour,.hairone,
+ .hairstyle,.hairthree,.hairtwo,.handles,.writeup4,
+ .writeup3,.writeup2,.writeup,.woman,.top_box,.tagged,
+.tag_content,.tag,.subtitle,.skinhead,.section2,.pishur,
+.logo_name,.header,section,.image, button, nav,ul,li, 
+footer,body, main, .social, #author, #hair, #boxcontent,
+#facebook,
 }
