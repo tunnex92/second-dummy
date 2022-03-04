@@ -3,19 +3,20 @@
     margin: 0px;
 }
 body{
-    background-color: #ededed;
+    font-size:10vw;
+    background-color: #ededed;;
     width: auto;
     height: auto;
 }
 .header{
     width: 100%;
     height: 200px;
-    background-color:#0f9499
+    background-color:#166264;
 }
 .top_box{
-    background-color: #0a1633;
+    background-color: black;
     width: 220px;
-    height: 120px;
+    height: 130px;
     position: absolute;
     left: 200px;
     top: 90px; 
@@ -59,6 +60,10 @@ button{
   text-decoration: none;
   border: beige;
   }
+  button:hover{
+      background-color: red;
+  }
+
   .section2{
       width: 900px;
       height: 355px;
@@ -75,7 +80,7 @@ button{
   }
   .experts{
       position: absolute;
-      bottom: 150px;
+      bottom: 100px;
       right: 280px;
       /* background-color: red; */
       display: inline-block;
@@ -151,7 +156,7 @@ button{
       top: 920px;
       left: 170px;
       bottom: none;
-      font-family:Arial, Helvetica, sans-serif;
+      font-family:poppins;
       text-align: left;
       font-size: 12px;
       }
@@ -162,7 +167,7 @@ button{
       top: 920px;
       left: 410px;
       bottom: none;
-      font-family:montserrat;
+      font-family:poppins;
       text-align: left;
       font-size: 12px;
       }
@@ -184,7 +189,7 @@ button{
       top: 920px;
       left: 895px;
       bottom: none;
-      font-family:barlow;
+      font-family:poppins;
       text-align: left;
       font-size: 12px;
       }
@@ -205,8 +210,15 @@ button{
         position: absolute;
         left: 170px;
         bottom: -450px;
-
-      }
+     }
+     .tag{
+        background-color: #1b2130;
+        width: 170px;
+        height: 60px;
+        position: absolute;
+        right: 500px;
+        bottom: -450px;
+    }
     .box1{
         background-color: #166264;
         width: 450px;
@@ -236,6 +248,8 @@ button{
         align-content: center;
     }
     img{
+        max-width:100%;
+        height:auto;
         height: 130%;
         /* width: 100%; */
     }
@@ -251,14 +265,7 @@ button{
         line-height: 0.9cm;
         color: white;
     }
-    .tag{
-        background-color: #1b2130;
-        width: 170px;
-        height: 60px;
-        position: absolute;
-        right: 500px;
-        bottom: -450px;
-    }
+    
 .tag_content{
     font-size: 25px;
     font-family: comfortaa;
@@ -276,9 +283,9 @@ footer{
     text-align: center;
     padding-top: 50px;
     font-size: 13px;
-    font-family: barlow;
+    font-family: montserrat;
     color: white;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 .handles{
     width: 160px;
@@ -331,6 +338,22 @@ footer{
 }
 #facebook{
    margin-top: 25px;
-   margin-left: 10px;
+   margin-left: 15px;
    align-content: center;
+}
+
+#facebook:hover{
+    opacity: 1cm;
+    background-color: rgb(229, 224, 233);
+}
+/* .frame1{
+    position: absolute;
+    left: 570px;
+    top: 1853px;
+} */
+@media screen and (max-width: 800px){
+.box, .box1, .box1content,.box2, .copyright,.experts, .frame, .gallery,
+.great, .hairfour, .hairone, .hairstyle, .hairthree, .hairtwo, .handles,
+.writeup4,.writeup3,.writeup2,.writeup,.woman,.top_box,.tagged,.tag_content,
+.tag,.subtitle,.skinhead,.section2,.pishur,.logo_name,.header,
 }
