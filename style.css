@@ -13,6 +13,7 @@ body{
     margin: 0px 0px;
     background-color:#166264;
     height: 200px;
+    max-width: 500%;
 }
 .top_box{
     background-color: rgb(1, 10, 1);
@@ -35,13 +36,13 @@ nav{
 }
 nav ul{
     position: absolute;
-    text-align: right;
+    /* text-align: right; */
    left:450px;
    top: 60px;
 }
 nav ul li{
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 100px;
 }
 nav ul li a{
