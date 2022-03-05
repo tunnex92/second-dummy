@@ -3,23 +3,24 @@
     margin: 0px;
 }
 body{
-    font-size:10vw;
+    font-size:10px;
     background-color: #ededed;;
     width: auto;
     height: auto;
 }
 .header{
-    width: 100%;
-    height: 200px;
+    position: relative;
+    margin: 0px 0px;
     background-color:#166264;
+    height: 200px;
 }
 .top_box{
-    background-color: black;
+    background-color: rgb(1, 10, 1);
     width: 220px;
-    height: 130px;
+    height: 120px;
     position: absolute;
     left: 200px;
-    top: 90px; 
+    top: 100px; 
 }
 .logo_name{
     font-family: Arimo;
@@ -33,12 +34,10 @@ nav{
   
 }
 nav ul{
-    /* background-color: blue; */
+    position: absolute;
     text-align: right;
-    margin-right: 100px;
-    /* padding-left: 100px; */
-    
-   
+   left:450px;
+   top: 60px;
 }
 nav ul li{
     display: inline-block;
@@ -359,5 +358,5 @@ footer{
 .tag_content,.tag,.subtitle,.skinhead,.section2,.pishur,
 .logo_name,.header,section,.image, button, nav,ul,li, 
 footer,body, main, .social, #author, #hair, #boxcontent,
-#facebook,
+#facebook, hair
 }
