@@ -65,9 +65,10 @@ button{
   }
 
   .section2{
+      position: relative;
       width: 900px;
       height: 355px;
-      border: #0f9499  solid;
+      border: #0f9499 5px solid;
       background-color: white;
      margin-top: 50px;
      margin-left: 200px;
@@ -80,18 +81,23 @@ button{
   }
   .experts{
       position: absolute;
+      left: 300px;
       bottom: 100px;
-      right: 280px;
+      /* right: 280px; */
       /* background-color: red; */
-      display: inline-block;
-      margin-left:450px;
+      /* display: inline-block; */
+      /* margin-left:450px; */
       width: 500px;
       height: 150px;
+      font-family: montserrat;
+      font-size: 50px;
+      text-align: right;
+     color: #1b2130;
   }
   .great{
-     font-family: montserrat;
+     /* font-family: montserrat;
       font-size: 40px;
-     color: #1b2130;
+     color: #1b2130; */
   }
   .gallery{
     margin-top: 60px;
@@ -102,15 +108,31 @@ button{
     /* background-color: red; */
   }
   .frame{
-      display: flex;
-      justify-content: space-evenly;
-      /* margin-left: 5px; */
-      padding: 12px;
+      /* position: absolute; */
+      /* background-color: green; */
+      /* display: flex; */
+      /* justify-content: space-evenly; */
+      align:left
+      /* padding: 12px; */
       /* border: solid 5px red; */
   }
+  .subtitle{
+    position: relative;
+    left: 0px;
+    /* margin-left: 0px; */
+    /* background-color: green; */
+    width: 900px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: normal;
+    /* width: 40px; */
+}
   .pishur{
-    border: 5px solid #0f9499;
-    margin-right: 20px;
+    border: 2px solid #0f9499;
+    margin-left: 0px;
+    margin-right: 9.1px;
     border-radius: 3px;
     box-shadow:0px 5px 0px 0px grey
   }
@@ -118,80 +140,81 @@ button{
       /* display: flex;
       justify-content: space-evenly; */
       position: absolute;
-      left: 412px;
+      left: 0px;
       bottom: none;
       /* background-color: red; */
   }
   .hairtwo{
     position: absolute;
-    left: 170px;
+    left: 227px;
     bottom: none;
     /* background-color:blue */
   }
   .hairthree{
     position: absolute;
-    left: 655px;
+    left: 453px;
     bottom: none;
     /* background-color:green */
   }
   .hairfour{
     position: absolute;
-    left: 898px;
+    left: 680px;
     bottom: none;
     /* background-color:orange  */
   }
-  .subtitle{
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 18px;
-      padding-top: 10px;
-      font-weight: normal;
-      /* width: 40px; */
-  }
+  
   /* I am Yet to decide on the font to use */
-  .writeup{
+.writeup{
+      /* background-color: red; */
       width: 215px;
       height: 120px;
       /* background-color: red; */
       position: absolute;
-      top: 920px;
-      left: 170px;
-      bottom: none;
+      top: 50px;
+      left: 0px;
+      /* bottom: none; */
       font-family:poppins;
       text-align: left;
       font-size: 12px;
       }
-      .writeup2{
+
+.writeup2{
         width: 215px;
         height: 120px;
         position: absolute;
-      top: 920px;
-      left: 410px;
+      top: 50px;
+      left: 230px;
       bottom: none;
       font-family:poppins;
       text-align: left;
       font-size: 12px;
+      /* color: orange; */
       }
+
       .writeup3{
         width: 215px;
         height: 120px;
         position: absolute;
-      top: 920px;
-      left: 653px;
-      bottom: none;
-      font-family:poppins;
-      text-align: left;
-      font-size: 12px;   
-      }
-      .writeup4{
-        width: 215px;
-        height: 120px;
-        position: absolute;
-      top: 920px;
-      left: 895px;
+      top: 50px;
+      left: 455px;
       bottom: none;
       font-family:poppins;
       text-align: left;
       font-size: 12px;
+      /* color: cyan;    */
+      }
+
+    .writeup4{
+    width: 215px;
+    height: 120px;
+    position: absolute;
+    top: 50px;
+    left: 680px;
+    bottom: none;
+    font-family:poppins;
+    text-align: left;
+    font-size: 12px;
+    /* color: peru;    */
       }
       .box{
           background-color: white;
@@ -273,12 +296,16 @@ button{
     color: bisque;
     padding-top: 10px;
 }
+
 footer{
-    width: auto;
+    position: relative;
+    margin: 0px 0px;
     height: 120px;
+    max-width: 500%;
     background-color: #166264;
     margin-top: 50px;
 }
+
 .copyright{
     text-align: center;
     padding-top: 50px;
@@ -289,12 +316,12 @@ footer{
 }
 .handles{
     width: 160px;
-    height: 70px;
-    background-color: #202b44;
+    height: 60px;
+    background-color: rgb(7, 75, 71);
     position: absolute;
     right: 240px;
-    top: 1750px;
-    /* opacity: 0.1; */
+    top: 35px;
+    opacity: 0.7;
 }
 .box1content{
     /* background-color: red; */
