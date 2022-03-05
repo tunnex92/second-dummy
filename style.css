@@ -9,12 +9,13 @@ body{
     height: auto;
 }
 main{
+    width: 900px;
 }
 
 section{
-width: auto;
+width: 900px;
 }
-
+/* 
 .section2{
 position: relative;
 width: 900px;
@@ -23,7 +24,7 @@ border: #0f9499 5px solid;
 background-color: white;
 margin-top: 50px;
 margin-left: 200px;
-}
+} */
 .header{
     position: relative;
     margin: 0px 0px;
@@ -394,7 +395,7 @@ footer{
     left: 570px;
     top: 1853px;
 } */
-@media screen and (max-width: 100%){
+@media screen and (max-width: 900%){
 .box, .box1, .box1content,.box2, #box2, .copyright,
 .experts, .frame, .gallery,.great,.hairfour,.hairone,
  .hairstyle,.hairthree,.hairtwo,.handles,.writeup4,
